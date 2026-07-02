@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Metadatos SEO básicos -->
- <!-- Metadatos SEO básicos -->
-<title>Técnicos en Emergencias Sanitarias | @tes_ambulancia</title>
-<meta name="description" content="Aprende con @tes_ambulancia: cursos online gratuitos y oficiales para Técnicos en Emergencias Sanitarias (TES). Formación en primeros auxilios, RCP, soporte vital y más.">
-<meta name="keywords" content="TES, Técnico en Emergencias Sanitarias, ambulancias, emergencias, formación sanitaria, primeros auxilios, soporte vital, curso RCP, urgencias médicas, SAMU, formación online TES, formación TES gratis, @tes_ambulancia">
-<meta name="author" content="@tes_ambulancia">
-<meta name="robots" content="index, follow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Aviso de Cookies</title>
+  <!-- 🟦 SEO -->
+  <title>Técnicos en Emergencias Sanitarias | @tes_ambulancia</title>
+  <meta name="description" content="Aprende con @tes_ambulancia: cursos online gratuitos y oficiales para Técnicos en Emergencias Sanitarias (TES). Formación en primeros auxilios, RCP, soporte vital y más.">
+  <meta name="keywords" content="TES, Técnico en Emergencias Sanitarias, ambulancias, emergencias, formación sanitaria, primeros auxilios, soporte vital, curso RCP, urgencias médicas, SAMU, formación online TES, formación TES gratis, @tes_ambulancia">
+  <meta name="author" content="@tes_ambulancia">
+  <meta name="robots" content="index, follow">
+
   <!-- 🎨 Estilos del aviso de cookies -->
   <link rel="stylesheet" href="cookies.css">
 
-  <!-- 🍪 Script que crea el aviso y gestiona el consentimiento -->
+  <!-- 🍪 Script del aviso de cookies -->
   <script src="cookies.js" defer></script>
 
-  <!-- 📊 Google Analytics: solo si el usuario ha aceptado las cookies -->
+  <!-- 📊 Google Analytics solo si el usuario acepta cookies -->
   <script>
     if (sessionStorage.getItem("cookiesAceptadas") === "true") {
       const gtagScript = document.createElement("script");
@@ -37,7 +35,14 @@
   </script>
 </head>
 
-
 <body>
+
+  <!-- 🍪 Aviso de cookies -->
+  <div id="cookies-aviso" class="cookies-aviso">
+    <p>Usamos cookies para mejorar tu experiencia. ¿Aceptas?</p>
+    <button id="cookies-aceptar">Aceptar</button>
+    <button id="cookies-rechazar">Rechazar</button>
+  </div>
+
 </body>
 </html>
