@@ -1,0 +1,16 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="340.0px" height="100" viewBox="0.0 0.0 340.0 100.0">
+  <ns0:style>
+    .codigo {
+      font: bold 36px 'Segoe UI', sans-serif;
+      fill: #005bff;
+    }
+
+    .ambulancia {
+      font: italic 28px 'Arial Black', sans-serif;
+      fill: black;
+    }
+  </ns0:style>
+
+  <ns0:text x="10" y="40" class="codigo">CÓDIGO</ns0:text>
+  <ns0:text x="110" y="80" class="ambulancia" style=" fill:white;">AMBULANCIA</ns0:text>
+</ns0:svg>
