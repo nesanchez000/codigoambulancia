@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resúmenes - Código Ambulancia</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf8f0;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #005ea8;
+      color: white;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    .carrusel {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 40px 20px;
+      scroll-behavior: smooth;
+    }
+    .carrusel::-webkit-scrollbar {
+      display: none;
+    }
+    .resumen {
+      flex: 0 0 auto;
+      width: 250px;
+      background-color: #fff3e0;
+      border: 2px solid #ff8c00;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .resumen img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .resumen h3 {
+      font-size: 1.1em;
+      color: #005ea8;
+      margin: 0;
+    }
+    .descarga {
+      margin: 30px;
+    }
+    .descarga a {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #ff8c00;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .descarga a:hover {
+      background-color: #e86e00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Resúmenes</h1>
+  </header>
+
+  <div class="carrusel">
+    <div class="resumen">
+      <img src="resumen1.jpg" alt="Resumen 1">
+      <h3>Trauma y Atención Inicial</h3>
+    </div>
+    <div class="resumen">
+      <img src="resumen2.jpg" alt="Resumen 2">
+      <h3>Evaluación Primaria</h3>
+    </div>
+    <div class="resumen">
+      <img src="resumen3.jpg" alt="Resumen 3">
+      <h3>RCP y Soporte Vital</h3>
+    </div>
+    <!-- Puedes añadir más resúmenes duplicando los bloques anteriores -->
+  </div>
+
+  <div class="descarga">
+    <a href="descargar-resumenes.zip" download>Descargar Todos los Resúmenes</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Metadatos SEO básicos -->
+<title>Técnicos en Emergencias Sanitarias | @tes_ambulancia</title>
+<meta name="description" content="Aprende con @tes_ambulancia: cursos online gratuitos y oficiales para Técnicos en Emergencias Sanitarias (TES). Formación en primeros auxilios, RCP, soporte vital y más.">
+<meta name="keywords" content="TES, Técnico en Emergencias Sanitarias, ambulancias, emergencias, formación sanitaria, primeros auxilios, soporte vital, curso RCP, urgencias médicas, SAMU, formación online TES, formación TES gratis, @tes_ambulancia">
+<meta name="author" content="@tes_ambulancia">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check List Ambulancia SVB - Exterior</title>
+  <!-- 🎨 Estilos del aviso de cookies -->
+  <link rel="stylesheet" href="cookies.css">
+
+  <!-- 🍪 Script que crea el aviso y gestiona el consentimiento -->
+  <script src="cookies.js" defer></script>
+
+  <!-- 📊 Google Analytics: solo si el usuario ha aceptado las cookies -->
+  <script>
+    if (sessionStorage.getItem("cookiesAceptadas") === "true") {
+      const gtagScript = document.createElement("script");
+      gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-WQZJ8L6557";
+      gtagScript.async = true;
+      document.head.appendChild(gtagScript);
+
+      gtagScript.onload = function () {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-WQZJ8L6557');
+      };
+    }
+  </script>
+  <style>
+	 * {
+      box-sizing: border-box;
+    }
+	
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      .titulo {
+        flex-direction: column;
+        font-size: 2rem;
+      }
+
+      .linea-horizontal {
+        width: 80%;
+      }
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+     color: #0077b6;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .checklist {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+    .item label {
+      flex: 1;
+    }
+    button {
+      margin: 20px auto;
+      display: block;
+      background-color: #ff5733;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e14e2d;
+    }
+	/* 🌙 Modo oscuro */
+    .dark-mode {
+      background-color: #121212;
+      color: black;
+    }
+
+    .dark-mode header {
+      background-color: #222;
+    }
+
+    .dark-mode nav a {
+      background-color: #444;
+      color: #fff;
+    }
+
+    .dark-mode nav a:hover {
+      background-color: #666;
+    }
+
+    .dark-mode .destacado {
+      background-color: #2a2a2a;
+      border-color: #bb6f00;
+    }
+
+    .dark-mode .bloque {
+      background-color: #1e1e1e;
+      border-color: #007acc;
+    }
+
+    .dark-mode .bloque button {
+      background-color: #bb6f00;
+    }
+
+    .dark-mode .bloque button:hover {
+      background-color: #995700;
+    }
+
+    .dark-mode .linea-horizontal {
+      background-color: white;
+    }
+	
+    /* 🌙 Botón modo oscuro flotante */
+    #bot-modo-oscuro {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 9999;
+    }
+
+    #bot-modo-oscuro button {
+      background-color: #555;
+      border: none;
+      border-radius: 50%;
+      padding: 12px 14px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    #bot-modo-oscuro button:hover {
+      background-color: #333;
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      .bloque {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .titulo {
+        flex-direction: column;
+        font-size: 2rem;
+      }
+
+      .linea-horizontal {
+        width: 80%;
+      }
+    }
+	
+    .dark-mode #mensaje-bot {
+      background: #333;
+      color: #f0f0f0;
+    }
+	 /* 🌙 Modo oscuro */
+    .dark-mode {
+      background-color: #121212;
+      color: black;
+    }
+
+    .dark-mode header {
+      background-color: #222;
+    }
+
+    .dark-mode nav a {
+      background-color: #444;
+      color: #fff;
+    }
+
+    .dark-mode nav a:hover {
+      background-color: #666;
+    }
+
+    .dark-mode .destacado {
+      background-color: #2a2a2a;
+      border-color: #bb6f00;
+    }
+
+    .dark-mode .bloque {
+      background-color: #1e1e1e;
+      border-color: #007acc;
+    }
+
+    .dark-mode .bloque button {
+      background-color: #bb6f00;
+    }
+
+    .dark-mode .bloque button:hover {
+      background-color: #995700;
+    }
+
+    .dark-mode .linea-horizontal {
+      background-color: white;
+    }
+
+    /* 🧸 BOT BUENO */
+    #bot-bueno {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      text-align: center;
+    }
+
+    #bot-bueno img {
+      width: 80px;
+    }
+
+    #mensaje-bot {
+      background: #ffffff;
+      padding: 10px 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+      margin-top: 8px;
+      font-family: sans-serif;
+      font-size: 14px;
+      display: none;
+      max-width: 240px;
+    }
+
+    .dark-mode #mensaje-bot {
+      background: #333;
+      color: #f0f0f0;
+    }
+
+    /* 🌙 Botón modo oscuro flotante */
+    #bot-modo-oscuro {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 9999;
+    }
+
+    #bot-modo-oscuro button {
+      background-color: #555;
+      border: none;
+      border-radius: 50%;
+      padding: 12px 14px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    #bot-modo-oscuro button:hover {
+      background-color: #333;
+      transform: scale(1.1);
+    }
+  </style>
+ 
+</head>
+
+
+<body>
+	
+  <!-- 🌙 Botón modo oscuro -->
+  <div id="bot-modo-oscuro">
+    <button onclick="toggleTheme()" aria-label="Cambiar a modo oscuro">🌙</button>
+  </div>
+
+  <h1>Check List Ambulancia SVB - Exterior</h1>
+  <div class="checklist" id="checklist">
+    <div class="item"><label>Señalización óptica (rotativos o barra)</label><input type="checkbox"></div>
+    <div class="item"><label>Inscripción Ambulancia visible</label><input type="checkbox"></div>
+    <div class="item"><label>Puertas accesibles y en buen estado</label><input type="checkbox"></div>
+    <div class="item"><label>Escalones o peldaños seguros</label><input type="checkbox"></div>
+    <div class="item"><label>Limpieza exterior adecuada</label><input type="checkbox"></div>
+    <div class="item"><label>Ruedas en buen estado (presión y desgaste)</label><input type="checkbox"></div>
+    <div class="item"><label>Retrovisores y cristales sin daños</label><input type="checkbox"></div>
+    <div class="item"><label>Luces exteriores (cortas, largas, freno, intermitentes)</label><input type="checkbox"></div>
+    <div class="item"><label>Claxon funcionando</label><input type="checkbox"></div>
+    <div class="item"><label>Combustible suficiente</label><input type="checkbox"></div>
+    <div class="item"><label>Documentación del vehículo a bordo</label><input type="checkbox"></div>
+    <div class="item"><label>Extintor accesible y en buen estado</label><input type="checkbox"></div>
+    <div class="item"><label>Rótulos reflectantes en su sitio</label><input type="checkbox"></div>
+    <div class="item"><label>Acceso a compartimento de material</label><input type="checkbox"></div>
+    <div class="item"><label>Sirena audible y operativa</label><input type="checkbox"></div>
+  </div>
+  <button onclick="resetChecklist()">Resetear Lista</button>
+
+  <script>
+  // 🌙 Función para alternar modo claro/oscuro
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem('modo-oscuro', document.body.classList.contains('dark-mode'));
+  }
+
+  // 🕒 Aplica el tema guardado al cargar la página
+  window.addEventListener('DOMContentLoaded', () => {
+    const modoOscuroGuardado = localStorage.getItem('modo-oscuro') === 'true';
+    if (modoOscuroGuardado) {
+      document.body.classList.add('dark-mode');
+    }
+  });
+</script>
+<script>
+    function resetChecklist() {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach(cb => cb.checked = false);
+    }
+  </script>
+  
+  
+
+</body>
+</html>
