@@ -17,7 +17,6 @@
       document.getElementById("aceptar").onclick = function () {
         sessionStorage.setItem("cookiesAceptadas", "true");
         overlay.remove();
-        window.location.href = "https://nesanchez000.github.io/codigoambulancia/index2.html";
       };
 
       document.getElementById("rechazar").onclick = function () {
