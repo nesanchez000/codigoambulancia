@@ -16,7 +16,7 @@
 
       document.getElementById("aceptar").onclick = function () {
         sessionStorage.setItem("cookiesAceptadas", "true");
-         window.location.href = "index2.html";
+         window.location.href = "revista.html";
         overlay.remove();
       };
 
